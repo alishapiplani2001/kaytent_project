@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Kaytent Project</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="magicscroll/magicscroll.css"/>
+<script src="magicscroll/magicscroll.js"></script>
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header" style="padding-left: 25px;padding-right: 20px;">
+
+   <img  class="logo" style="height: 75px; width: 250px;" src="images/logo.png" alt="">
+
+
+   <nav class="navbar" >
+      <a class="btn" href="#home" style="color: white ;  ">home</a>
+      <a class="btn" href="#about"style="color: white ; ">about</a>
+      <a class="btn" href="#services" style="color: white ; ">services</a>
+      <a class="btn" href="#products" style="color: white ;">projects</a>
+      
+      <a class="btn" href="#contact"style="color: white ; ">contact</a>
+      
+   </nav>
+
+
+   <div class="icons">
+      <div id="menu-btn" class="fas fa-bars"></div>
+      <div id="info-btn" class="fas fa-info-circle"></div>
+      <div id="search-btn" class="fas fa-search"></div>
+      <div id="login-btn" class="fas fa-user"></div>
+   </div>
+
+   <form action="" class="search-form">
+      <input type="search" name="" placeholder="search here..." id="search-box">
+      <label for="search-box" class="fas fa-search"></label>
+   </form>
+
+   <form action="" class="login-form">
+      <h3>login form</h3>
+      <input type="email" placeholder="enter your email" class="box">
+      <input type="password" placeholder="enter your password" class="box">
+      <div class="flex">
+         <input type="checkbox" name="" id="remember-me">
+         <label for="remember-me">remember me</label>
+         <a href="#">forgot password?</a>
+      </div>
+      <input type="submit" value="login now" class="btn">
+      <p>don't have an account <a href="#">create one!</a></p>
+   </form>
+
+</header>
+
+<div class="contact-info">
+
+   <div id="close-contact-info" class="fas fa-times"></div>
+
+   <div class="info">
+      <i class="fas fa-phone"></i>
+      <h3>phone number</h3>
+      <p>+123-456-7890</p>
+      <p>+111-222-3333</p>
+   </div>
+
+   <div class="info">
+      <i class="fas fa-envelope"></i>
+      <h3>email address</h3>
+      <p>shaikhanas@gmail.com</p>
+      <p>anasbhai@gmail.com</p>
+   </div>
+
+   <div class="info">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>office address</h3>
+      <p>mumbai, india - 400104</p>
+   </div>
+
+   <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+   </div>
+
+</div>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+            <div class="content">
+               <h3 style="width: 650px;">Your One-Stop Manufacturing Partner</h3>
+               <p style="font-size: large;">Delivering Excellence in Custom Sewn Products for OEM’s and Global Brands</p>
+               <a href="#contact" class="btn">Let's Work</a>
+
+            </div>
+         </section>
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+            <div class="content">
+               <h3 style="width: 650px;">We ignite passion through our creations</h3>
+               <p style="font-size: large;">We believe that every item we create has the potential to spark something special in your customers – whether it's a newfound passion, unwavering loyalty, or a call to action that drives meaningful engagement.</p>
+               <a href="#about" class="btn">>Let's Work</a>
+            </div>
+         </section>
+
+         
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+   <h1 class="heading"> about us </h1>
+
+   <div class="row">
+
+      <div class="video">
+         <img src="images/kaytent building 01.jpg" style="height: 350px; width: 550px;">
+      </div>
+
+      <div class="content">
+         <h3 style="color: #0A1D56;">We will provide you the best work which you dreamt for!</h3>
+         <p>Established in 1967, KAY TENT Industries started it’s journey with manufacturing and supplying of Tents, Tactical Equipment such as High Altitude Rucksacks, Tents, Web equipment, Sleeping Bags to the Indian Army, UN & Para Military Forces. Kay Tent has developed itself as an OEM Manufacturer of backpacks to some of the leading luggage & Laptop brands.
+            In all of our business segments, we provide unique services to meet your demands. Our superpower is our custom sewn products. Kaytent is one of the few Indian companies offering custom sewing services for almost any application.
+            Our other services include- OEM contract sewing, manufacturing and product design. We at Kaytent can handle all the tasks with precision, always keeping quality first regardless of quantity.</p>
+         <a href="#services" class="btn">Learn more</a>
+      </div>
+
+   </div>
+
+
+
+</section>
+
+<!-- about section ends -->
+<section class="intro" id="intro">
+
+   <h1 class="heading" style="margin-bottom: 50px;"> Introducing a complete solution for your product dreams </h1>
+   <div>
+   <video  src="images/stich.mp4"loop muted autoplay style="width: 100%;  height: 400px; margin-bottom: 30px;padding: 0;"></video>
+</div>
+   <div class="row_intro">
+
+         <p style="font-size: 25px;">We help you plan, design, and make your product! Whether you're a new startup or an experienced brand, we're here to help your product succeed. Let us turn your ideas into reality and lead you to success. With our full range of services, we'll make your product journey smooth and easy. Get ready to stand out in the market with our winning approach!</p>
+        
+   
+
+   </div>
+   </section>
+
+<section class="ques">
+   <h1 class="heading"> Why our Manufacturing </h1>
+   <div class="container">
+      <div class="image">
+        <img src="images/ques1.jpg">
+      </div>
+      <div class="text">
+        <h1 style="margin-bottom: 15px;">From planning to manufacturing, we've got you covered</h1>
+        <p>We engage in discussions and customize everything, starting from sourcing accessories and trims, designing sample prototypes, manufacturing, and fulfilling orders right to your doorstep. Kaytent handles all of these aspects, allowing you to concentrate on marketing and expanding your brand.</p>
+      </div>
+    </div>
+    <div class="container">
+   
+      <div class="text">
+        <h1 style="margin-bottom: 15px;">Committed Partnership</h1>
+        <p>We believe in everlasting business relationships that are built on loyalty, commitment, trust, understanding and a common vision.</p>
+      </div>
+      <div class="image">
+         <img src="images/ques2.jpg" >
+       </div>
+    </div>
+</section>
+
+
+<!-- blogs section starts  -->
+<section class="service-1">
+   <h1 class="heading">Unleash your aspirations and share your visionary goals with us</h1>
+   <h1 style="font-size: 20px; margin-bottom: 20px; text-align: center; text-decoration: underline;"> # We have the power to materialize them into reality! </h1>
+<section class="blogs" style="margin: 10px;" id="blogs">
+
+   
+   <div class="swiper blogs-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/design.png" alt="">
+            </div>
+            <div class="content">
+               <h3>Design</h3>
+               <p style="text-align: left;">*Access to expert designers who will bring your vision to life.<br>
+                  *Tailored solutions that reflect your brand identity and customer needs</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/source.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>Sourcing</h3>
+               <p style="text-align: left;">*Streamlined process of finding high-quality materials and components.<br>
+                  *Cost-effective sourcing strategies to optimize your budget.</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/manufacture.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>Manufacturing</h3>
+               <p style="text-align: left;">*State-of-the-art facilities ensuring top-notch quality and precision.<br>
+                  *Dedicated teams overseeing production to maintain consistency and efficiency.</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/excellance.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>Operational Excellence</h3>
+               <p style="text-align: left;">* Reliable shipping and logistics management for timely and hassle-free delivery.<br>
+                  *Tracking capabilities to keep you informed every step of the way.</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         
+
+      </div>
+
+   </div>
+
+</section>
+</section>
+
+<!-- blogs section ends -->
+
+<h1 style="font-size: 20px; margin-bottom: 20px; text-align: center; text-decoration: underline;"> # Tailored Solutions for Your Needs </h1>
+
+
+<!-- services section starts  -->
+
+<section class="services" id="services" style="margin-right: 135px;margin-left: 135px; background-color: #5F5D9C; margin-bottom: 30px;">
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/8618611.jpg" alt="">
+         <h3>Diverse Textiles</h3>
+         <p>We can customize from normal polyester fabric to special-purpose PU fabric or even unusual textile products according to your design drafts</p>
+      </div>
+
+      <div class="box">
+         <img src="images/colour.jpg" alt="">
+         <h3>Diverse Colors</h3>
+         <p>Your focus on designing the product with best colours suited to bag design, we will take care of producing it at fabric mills.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/service-3.png" alt="">
+         <h3>Diverse Categories</h3>
+         <p>From laptop bags to slings, we will be able to manufacture any kind of bags and travel accessory for you.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/service-4.png" alt="">
+         <h3>Diverse Branding option</h3>
+         <p>From embroidery, Screen Printing, embossing to PVC Tags you name it we have it all</p>
+      </div>
+
+      
+   </div>
+
+</section>
+
+<!-- services section ends -->
+<h1 style="font-size: 20px; margin-bottom: 10px; text-align: center; text-decoration: underline;"> # Delivering Superior Products from Every Perspective </h1>
+<section class="project" id="project">
+   <div class="MagicScroll"data-options="step: 0; speed: 5000;">
+      <a href="/page-1/"><img src="images/Picture1.png" style="height: 500px;width: 500px; margin-left: 25px; margin-right: 25px;"></a>
+      <a href="/page-2/"><img src="images/Picture2.png"style="height: 500px;width: 500px;margin-left: 25px; margin-right: 25px;"></a>
+      <a href="/page-3/"><img src="images/Picture3.png"style="height: 500px;width: 500px;margin-left: 25px; margin-right: 25px;"></a>
+      <a href="/page-4/"><img src="images/Picture4.png"style="height: 500px;width: 500px;margin-left: 25px; margin-right: 25px;"></a>
+      <a href="/page-5/"><img src="images/Picture5.png"style="height: 500px;width: 500px;margin-left: 25px; margin-right: 25px;"></a>
+      <a href="/page-6/"><img src="images/Picture6.png"style="height: 500px;width: 500px;margin-left: 25px; margin-right: 25px;"></a>
+      
+      
+  </div>
+</section>
+
+<section class="services" style="margin-bottom: 30px;">
+   <h1 class="heading">Our Services</h1>
+   <div>
+      <p style="font-size: 20px;">We work in alliance with all the leading
+         manufacturers, suppliers, and dealers of
+         emergency relief as we are based in Delhi, the
+         commercial hub of the country.
+         All the products offered by us adhere to
+         international standards and are produced in
+         technologically advanced manufacturing facilities
+         to ensure high quality.
+         Our access to major ports of India, along with
+         speedy airlift alternatives, enables us to deliver on
+         time, which is critical when delivering humanitarian
+         relief.</p>
+   </div>
+
+</section>
+<!-- projects section starts  -->
+<section style="padding: 0;">
+   
+<section class="projects" id="projects" style="background-color:white; margin-left:150px; margin-right: 150px; padding:0;">
+   <h1 class="heading" style="color: #0A1D56;"> Our Products </h1>
+   <h1 style="text-align: center;font-size: 25px; margin-bottom: 20px;;"># Product Category</h1>
+<div class="row" style="margin-bottom: 50px;">
+  <div class="column">
+    <img src="images/cat1.png"  style="width:100%; margin-right: 80px;">
+   <h2 style="text-align: center;">LAPTOP BAGS</h2>
+  </div>
+  <div class="column">
+    <img src="images/cat2.png"  style="width:100%; margin-right: 40px;">
+    <h2 style="text-align: center;">ADVENTURE GEAR</h2>
+  </div>
+  <div class="column">
+    <img src="images/cat3.png"  style="width:100%; margin-right: 40px;; height: 130px;">
+    <h2 style="text-align: center;">TRAVEL GEAR</h2>
+  </div>
+  <div class="column">
+   <img src="images/cat4.png"  style="width:100%; margin-right: 40px;">
+   <h2 style="text-align: center;">SCHOOL BAGS</h2>
+ </div>
+ <div class="column">
+   <img src="images/cat5.png"  style="width:100%; margin-right: 40px;">
+   <h2 style="text-align: center;">MOMMY’S CHOICE</h2>
+ </div>
+ <div class="column">
+   <img src="images/cat6.png"  style="width:100%; margin-right: 40px;">
+   <h2 style="text-align: center;">ACCESSORIES</h2>
+ </div>
+</div>
+
+
+<div class="MagicScroll" data-options="autoplay: 1000; step: 1; mode: carousel; height: 275;width:1500px; margin-top:30px;">
+   <img src="images/c11.png">hii</img>
+   <img src="images/c12.png">
+   <img src="images/c13.png">
+   <img src="images/c21.png">
+   <img src="images/c22.png">
+   <img src="images/c23.png">
+   <img src="images/c31.png">
+   <img src="images/c32.png">
+   <img src="images/c33.png">
+   <img src="images/c41.png">
+   <img src="images/c42.png">
+   <img src="images/c43.png">
+   <img src="images/c51.png">
+   <img src="images/c52.png">
+   <img src="images/c53.png">
+   <img src="images/c61.png">
+   <img src="images/c62.png">
+   <img src="images/c63.png">
+</div>
+<div class="wrapper" style="margin-top: 50px;"> 
+   <i id="left" class="fa-solid  fas fa-angle-left"></i> 
+   <ul class="carousel"> 
+       <li class="card"> 
+           <div class="img"><img src="images/c11.png" alt="" draggable="false"> </div> 
+           <h2 style="color: rgb(28, 16, 50); font-weight:bold;"> 
+                 Laptops
+             </h2> 
+           <p style="font-size: 10px;"> * TWILL FABRIC<br>
+            * DURABLE & ELEGANCE<br>
+            * ORGANIZED FOR DAILY<br>
+            * ESSENTIALS</p>
+       </li> 
+       <li class="card"> 
+           <div class="img"><img src="images/c12.png" 
+                                 alt="" draggable="false"> </div> 
+           <h2 style="color:rgb(28, 16, 50); font-weight:bold;"> Laptops</h2> 
+           <p style="font-size: 10px;"> * VEGAN LEATHER +
+            POLYESTER<br>
+            * GRIP HANDLE + LONG
+            DETACHABLE HANDLE<br>
+            * ORGANIZED FOR
+            MEETING ESSENTIALS</p>
+       </li> 
+       <li class="card"> 
+           <div class="img"><img src= "images/c13.png" 
+                                 alt="" draggable="false"> </div> 
+           <h2 style="color: rgb(28, 16, 50); font-weight:bold;"> Laptops</h2> 
+           <p style="font-size: 10px;"> * GENUINE LEATHER +
+            NYLON<br>
+            * MODERN & PROFESSIONAL<br>
+            * UNISEX BACKPACK</p>
+       </li> 
+       <li class="card"> 
+           <div class="img"><img src= "images/c21.png" 
+                                 alt="" draggable="false"> </div> 
+           <h2 style="color:rgb(28, 16, 50); font-weight:bold;">ADVENTURE GEAR</h2> 
+           <p style="font-size: 10px;"> * ADAPTABLE FOR -50 °<br>
+           * COMPACT & LIGHT WEIGHT<br>
+           *  WATER RESISTANT</p>
+       </li> 
+       <li class="card"> 
+           <div class="img"><img src= "images/c22.png" 
+                                 alt="" draggable="false"> </div> 
+           <h2 style="color: rgb(28, 16, 50); font-weight:bold;">ADVENTURE GEAR</h2> 
+           <p style="font-size: 10px;"> * CAMPAIGN TENT<br>
+            * EASY TO CONSTRUCT<br>
+            * WIND & WATER
+            RESISTANT</p> 
+       </li> 
+       <li class="card"> 
+           <div class="img"><img src= "images/c23.png" 
+                                 alt="" draggable="false"> </div> 
+           <h2 style="color: rgb(28, 16, 50); font-weight:bold;">ADVENTURE GEAR</h2> 
+           <p style="font-size: 10px;"> * IDEAL FOR HIKING<br>
+            * DURABLE & LIGHT WEIGHT <br>
+            * 300GSM NYLON FABRIC</p>
+       </li> 
+       <li class="card"> 
+         <div class="img"><img src= "images/c31.png" 
+                               alt="" draggable="false"> </div> 
+         <h2 style="color: rgb(28, 16, 50); font-weight:bold;">TRAVEL GEAR</h2> 
+         <p style="font-size: 10px;"> 
+            * NYLON FABRIC <br>
+            * EXPANDABLE BAG<br>
+            * ORGANIZED FOR TRAVEL
+            ESSENTIALS</p> 
+     </li>
+     <li class="card"> 
+      <div class="img"><img src= "images/c32.png" 
+                            alt="" draggable="false"> </div> 
+      <h2 style="color: rgb(28, 16, 50); font-weight:bold;">TRAVEL GEAR</h2> 
+      <p style="font-size: 10px;"> * VEGAN LEATHER +
+         CANVAS<br>
+        * USED AS A BACKPACK
+         AND DUFFEL BAG<br>
+        * ORGANIZED FOR
+         TRAVEL ESSENTIALS</p>
+  </li>
+  <li class="card"> 
+   <div class="img"><img src= "images/c33.png" 
+                         alt="" draggable="false"> </div> 
+   <h2 style="color: rgb(28, 16, 50)n; font-weight:bold;">TRAVEL GEAR</h2> 
+   <p style="font-size: 10px;"> * VEGAN LEATHER &
+      1680 D PVC fabric<br>
+      * LIGHT WEIGHT & LONG
+      COMFORT</p>
+</li>
+<li class="card"> 
+   <div class="img"><img src= "images/c41.png" 
+                         alt="" draggable="false"> </div> 
+   <h2 style="color: rgb(28, 16, 50); font-weight:bold;">SCHOOL BAGS</h2> 
+   <p style="font-size: 10px;">* PRINTED TWILL FABRIC<br>
+      * DETACHABLE PENCIL
+      POUCH<br>
+      *ORGANIZED FOR KIDS
+      ESSENTIALS</p>
+</li>
+<li class="card"> 
+   <div class="img"><img src= "images/c42.png" 
+                         alt="" draggable="false"> </div> 
+   <h2 style="color: rgb(28, 16, 50); font-weight:bold;">SCHOOL BAGS</h2> 
+   <p style="font-size: 10px;">* PRINTED TWILL FABRIC<br>
+     * DURABLE &
+      COMFORTABLE<br>
+     * ORGANIZED FOR
+      KIDS ESSENTIALS</p>
+</li>
+<li class="card"> 
+   <div class="img"><img src= "images/c43.png" 
+                         alt="" draggable="false"> </div> 
+   <h2 style="color: rgb(28, 16, 50); font-weight:bold;">SCHOOL BAGS</h2> 
+   <p style="font-size: 10px;"> * PRINTED TWILL FABRIC<br>
+      * DURABLE & COMFORTABLE<br>
+      * ORGANIZED FOR KIDS
+      ESSENTIALS</p> 
+</li>
+<li class="card"> 
+   <div class="img"><img src= "images/c51.png" 
+                         alt="" draggable="false"> </div> 
+   <h2 style="color: rgb(28, 16, 50)n; font-weight:bold;">MOMMY’S CHOICE</h2> 
+   <p style="font-size: 10px;"> * PRINTED TWILL FABRIC<br>
+      * DURABLE &
+      MULTIFUNCTIONAL
+      ORGANIZED FOR MOTHERS
+      ESSENTIALS</p> 
+</li>
+<li class="card"> 
+   <div class="img"><img src= "images/c52.png" 
+                         alt="" draggable="false"> </div> 
+   <h2 style="color: rgb(28, 16, 50); font-weight:bold;">MOMMY’S CHOICE</h2> 
+   <p style="font-size: 10px;">* VEGAN LEATHER +
+      PRINTED TWILL FABRIC<br>
+      * DURABLE &
+      MULTIFUNCTIONAL<br>
+      * ORGANIZED FOR
+      MOTHERS ESSENTIALS</p>
+</li>
+<li class="card"> 
+   <div class="img"><img src= "images/c53.png" 
+                         alt="" draggable="false"> </div> 
+   <h2 style="color: rgb(28, 16, 50); font-weight:bold;">MOMMY’S CHOICE</h2> 
+   <p style="font-size: 10px;"> * CANVAS FABRIC <br>
+      * DURABLE &
+      MULTIFUNCTIONAL<br>
+      *ORGANIZED FOR MOTHERS
+      ESSENTIALS</p> 
+</li>
+<li class="card"> 
+   <div class="img"><img src= "images/c61.png" 
+                         alt="" draggable="false"> </div> 
+   <h2 style="color: rgb(28, 16, 50); font-weight:bold;">ACCESSORIES</h2> 
+   <p style="font-size: 10px;">* CANAVAS FABRIC +
+      COTTON HANDLE<br>
+      * DURABLE & ELEGANCE<br>
+      * ORGANIZED FOR DAILY
+      ESSENTIALS</p> 
+</li>
+<li class="card"> 
+   <div class="img"><img src= "images/c62.png" 
+                         alt="" draggable="false"> </div> 
+   <h2 style="color: rgb(28, 16, 50); font-weight:bold;">ACCESSORIES</h2> 
+   <p style="font-size: 10px;"> * PRINTED TWILL FABRIC<br>
+      * GRIP HANDLE +
+      TOP ZIP CLOUSER<br>
+      * ORGANIZED FOR
+      MAKEUP ESSENTIALS</p>
+</li>
+<li class="card"> 
+   <div class="img"><img src= "images/c63.png" 
+                         alt="" draggable="false"> </div> 
+   <h2 style="color: rgb(28, 16, 50); font-weight:bold;">ACCESSORIES</h2> 
+   <p style="font-size: 10px;"> * PRINTED TWILL FABRIC<br>
+     * DURABLE & ORGANISED<br>
+     * ORGANIZED FOR MAKEUP
+      ESSENTIALS</p>
+</li>
+   </ul> 
+   <i id="right" class="fa-solid fas fa-angle-right"></i> 
+</div> 
+   
+</section>
+</section>
+
+<!-- projects section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="philo" style="background-image: url(images/philo.jpg);">
+   <div>
+      <h1 class="heading">Our Philosophy</h1>
+      <div style="width: 45%;">
+      <p style="font-size: 28px;">We extremely understand that every client’s positioning and needs are unique. With this in mind, we have endeavoured to provide focused care and attention to their requirements by making as close to possible customized bags & backpacks products that aptly represent and communicate their brand. We take into consideration client-dictated parameters concerning the identity, budget, quantity, and delivery lead time in coming up with the best bags & backpacks products that will effectively assist if not enhance in their corporate and brand messaging.</p>
+   </div>
+   </div>
+
+</section>
+
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact" style="background-color: #5F5D9C;">
+
+   <h1 class="heading"> contact us </h1>
+
+   <div class="row">
+
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15076.89592087332!2d72.8319697277345!3d19.14167056419224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1641716772852!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+
+      <form action="">
+         <h3>get in touch</h3>
+         <input type="text" placeholder="name" class="box">
+         <input type="email" placeholder="email" class="box">
+         <input type="number" placeholder="phone" class="box">
+         <textarea name="" placeholder="message" class="box" id="" cols="30" rows="10"></textarea>
+         <input type="submit" value="send message" class="btn">
+      </form>
+
+   </div>
+
+   
+
+</section>
+
+<!-- contact section ends -->
+
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="links">
+      <a class="btn" href="#home">home</a>
+      <a class="btn" href="#about">about</a>
+      <a class="btn" href="#services">services</a>
+      <a class="btn" href="#Products">projects</a>
+   
+      <a class="btn" href="#contact">contact</a>
+      <a class="btn" href="#blogs">blogs</a>
+   </div>
+
+   <div class="credit"> created by <span>MD IMRAN HOSSEN</span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+<script>
+
+lightGallery(document.querySelector('.projects .box-container'));
+
+</script>
+
+</body>
+</html>
